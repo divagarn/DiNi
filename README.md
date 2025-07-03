@@ -1,6 +1,6 @@
-# DiVim
+# DiNi
 
-**DiVim** is a lightweight, terminal-based Vim-like text editor written in Python using the `curses` library. It provides basic editing features such as insert mode, arrow key navigation, and `:w`, `:q`, `:wq` commands — inspired by the simplicity of Vim.
+**DiNi** is a lightweight, terminal-based Vim-like text editor written in Python using the `curses` library. It provides basic editing features such as insert mode, arrow key navigation, and `:w`, `:q`, `:wq` commands — inspired by the simplicity of Vim.
 
 ---
 
@@ -19,6 +19,6 @@
 ### Step 1: Add the APT source
 
 ```bash
-echo "deb [trusted=yes] https://divagarn.github.io/DiVim/ ./" | sudo tee /etc/apt/sources.list.d/divim.list
+echo "deb [trusted=yes] https://divagarn.github.io/DiNi/ ./" | sudo tee /etc/apt/sources.list.d/dini.list
 sudo apt update
-sudo apt install divim
+sudo apt install dini
